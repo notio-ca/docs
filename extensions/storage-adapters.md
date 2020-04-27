@@ -39,7 +39,7 @@ Then simply set the following into your configuration file (by default `config/a
     'endpoint' => 's3-endpoint',
     'root' => '/',
     'thumb_root' => '/thumbnails',
-    'root_url' => 'http://<bucket>.s3-<region>.amazonaws.com',
+    'root_url' => 'http://<bucket>.s3-website-<region>.amazonaws.com',
 ]
 ```
 
