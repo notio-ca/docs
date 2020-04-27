@@ -36,10 +36,10 @@ Then simply set the following into your configuration file (by default `config/a
       'ACL' => 'public-read',
       'CacheControl' => 'max-age=604800'
     ],
-    'endpoint' => 's3-endpoint',
+    'endpoint' => 'https://s3.amazonaws.com',
     'root' => '/',
     'thumb_root' => '/thumbnails',
-    'root_url' => 'http://<bucket>.s3-<region>.amazonaws.com',
+    'root_url' => 'http://<bucket>.s3-website-<region>.amazonaws.com',
 ]
 ```
 
